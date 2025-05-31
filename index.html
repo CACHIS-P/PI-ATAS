@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Piñatas Cachis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+    }
+
+    /* Encabezado y menú */
+    header {
+      background-color: #1f3a60;
+      color: white;
+      padding: 15px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sección principal */
+    .info-principal {
+      background-color: #f0f4f8;
+      color: #333;
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 4px solid #d1d5db;
+    }
+
+    .info-principal h1 {
+      font-size: 3em;
+      color: #1f3a60;
+      margin-bottom: 20px;
+    }
+
+    .info-principal p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    .info-principal strong {
+      color: #0e7490;
+    }
+
+    /* Productos */
+    #productos {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    #productos h2 {
+      font-size: 2em;
+      color: #1f3a60;
+      margin-bottom: 20px;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .galeria img {
+      width: 200px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+
+    /* Contacto */
+    #contacto {
+      padding: 40px 20px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    #contacto ul {
+      list-style-type: disc;
+      text-align: left;
+      max-width: 500px;
+      margin: 20px auto;
+      color: #333;
+    }
+
+    #contacto a.whatsapp-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    /* Ubicación */
+    #ubicacion {
+      padding: 40px 20px;
+      background-color: #f9fafb;
+      text-align: center;
+    }
+
+    #ubicacion h2 {
+      color: #1f3a60;
+    }
+
+    #ubicacion a {
+      color: #0e7490;
+      font-weight: bold;
+    }
+
+    /* Horarios */
+    #horarios {
+      padding: 40px 20px;
+      background-color: #f0f4f8;
+      text-align: center;
+    }
+
+    #horarios h2 {
+      color: #1f3a60;
+    }
+
+    #horarios ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    /* Pie de página */
+    footer {
+      background-color: #1f3a60;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#horarios">Horarios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- INFORMACIÓN PRINCIPAL -->
+  <section class="info-principal" id="inicio">
+    <h1>Bienvenidos a Piñatas Cachis</h1>
+    <p>
+      En <strong>Piñatas Cachis</strong> nos especializamos en crear <strong>piñatas únicas, coloridas y personalizadas</strong>
+      para todo tipo de celebraciones. Con creatividad y pasión, damos vida a tus ideas para que tu fiesta sea inolvidable.
+    </p>
+  </section>
+<!-- ANUNCIO GIF -->
+<section style="text-align: center; padding: 30px 0; background-color: #f0f4f8;">
+  <img src="anuncio.gif" alt="Anuncio especial" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(31,58,96,0.3);">
+</section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos">
+    <h2>🎉 Piñatas para todos tus eventos 🎉</h2>
+    <div class="galeria">
+      <img src="p1.jpg" alt="Piñata 1">
+      <img src="p2.jpg" alt="Piñata 2">
+      <img src="p3.jpg" alt="Piñata 3">
+      <img src="p4.jpg" alt="Piñata 4">
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>📬 Contáctanos</h2>
+    <p>Estamos para ayudarte. ¡Contáctanos por llamada o WhatsApp!</p>
+    <p style="font-size: 1.2em; color: #0e7490;"><strong>Teléfono / WhatsApp: 618-112-5099</strong></p>
+
+    <a href="https://wa.me/5216181125099" target="_blank" class="whatsapp-button">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="24" height="24">
+      Enviar mensaje por WhatsApp
+    </a>
+
+    <ul>
+      <li>Pedidos personalizados para cualquier ocasión</li>
+      <li>Diseños únicos y coloridos</li>
+      <li>Respuestas rápidas y trato amable</li>
+      <li>Entregas seguras y puntuales</li>
+    </ul>
+  </section>
+
+  <!-- UBICACIÓN -->
+  <section id="ubicacion">
+    <h2>📍 Nuestra Ubicación</h2>
+    <p>J. Guadalupe Rodríguez 203, Villa de Guadalupe, 34040 Durango, Dgo.</p>
+    <p>
+      <a href="https://maps.app.goo.gl/fDk5JFifn2S7uTDY9?g_st=aw" target="_blank">
+        Ver en Google Maps
+      </a>
+    </p>
+  </section>
+
+  <!-- HORARIOS -->
+  <section id="horarios">
+    <h2>⏰ Horarios de Atención</h2>
+    <ul>
+      <li>Lunes a Sábado: 10:00 am – 7:00 pm</li>
+      <li>Domingo: Cerrado</li>
+    </ul>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>© 2025 Piñatas Cachis. Todos los derechos reservados.</p>
+    <p>Creado por: Sánchez, Salas y Hernández</p>
+  </footer>
+
+</body>
+</html>
